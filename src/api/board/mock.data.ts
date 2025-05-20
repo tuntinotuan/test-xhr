@@ -87,10 +87,15 @@ export const initialLists: ListType[] = [
   { id: 2, title: "Done", boardId: 999 },
 ];
 export const initialTasks: Task[] = [
-  { id: 33, listId: 1, content: "Learn Reactjs" },
-  { id: 22, listId: 1, content: "Exercise" },
-  { id: 25, listId: 1, content: "Go to supermarket" },
-  { id: 24, listId: 2, content: "Play game" },
-  { id: 26, listId: 2, content: "Go out with my friend" },
-  { id: 27, listId: 2, content: "Reading 'Don't make me think'" },
+  { id: 33, listId: 1, content: "Learn Reactjs", checked: false },
+  { id: 22, listId: 1, content: "Exercise", checked: false },
+  { id: 25, listId: 1, content: "Go to supermarket", checked: false },
+  { id: 24, listId: 2, content: "Play game", checked: false },
+  { id: 26, listId: 2, content: "Go out with my friend", checked: false },
+  {
+    id: 27,
+    listId: 2,
+    content: "Reading 'Don't make me think'",
+    checked: false,
+  },
 ];
