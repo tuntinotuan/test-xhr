@@ -10,14 +10,14 @@ const ProjectHaveAny = () => {
   const dispatch = useDispatch<AppDispatch>();
   return (
     <div className="w-full p-2 mx-auto flex flex-col items-center justify-center">
-      <p>You do not have any projects yet!</p>
+      <p>You do not have any todolist yet!</p>
       <ButtonCreate
         className="w-[200px] my-2"
         styles="primary"
         onClick={() => dispatch(handleOpenAndClosePopupCreateboard(true))}
       >
         <PlusIcon />
-        Create a project
+        Create a todolist
       </ButtonCreate>
     </div>
   );
