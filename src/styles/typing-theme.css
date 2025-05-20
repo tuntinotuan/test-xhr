@@ -1,0 +1,198 @@
+/* default theme */
+/* :root {
+  --bg-primary: #fff;
+  --bg-control: #eff4fc;
+  --color-active: #01c4cd;
+  --text-normal: #526777;
+  --text-correct: #894ede;
+  --text-wrong: #e9595a;
+  --text-hover: #000;
+} */
+.theme-light {
+  --bg-primary: #fff;
+  --bg-control: #eff4fc;
+  --color-active: #01c4cd;
+  --text-normal: #526777;
+  --text-correct: #894ede;
+  --text-wrong: #e9595a;
+  --text-hover: #000;
+}
+
+/* dark theme */
+.theme-dark {
+  --bg-primary: #262a33;
+  --bg-control: #1f232c;
+  --color-active: #43ffaf;
+  --text-normal: #526777;
+  --text-correct: #fff;
+  --text-wrong: #e9595a;
+  --text-hover: #fff;
+}
+
+/* green theme */
+.theme-green {
+  --bg-primary: #79fbdf;
+  --bg-control: #1f232c;
+  --color-active: #894ede;
+  --text-normal: #526777;
+  --text-correct: #fff;
+  --text-wrong: #e9595a;
+  --text-hover: #fff;
+}
+
+/* blue theme */
+.theme-blue {
+  --bg-primary: #2d394d;
+  --bg-control: #263041;
+  --color-active: #ff7a90;
+  --text-normal: #4a768d;
+  --text-correct: #fff;
+  --text-wrong: #e9595a;
+  --text-hover: #fff;
+}
+
+/* deep theme */
+.theme-deep {
+  --bg-primary: #1c1c1c;
+  --bg-control: #242424;
+  --color-active: #dfd7af;
+  --text-normal: #444444;
+  --text-correct: #fff;
+  --text-wrong: #e91e63;
+  --text-hover: #fff;
+}
+
+/* a-blue theme */
+.theme-a-blue {
+  --bg-primary: #313338;
+  --bg-control: #2b2d31;
+  --color-active: #5a65ea;
+  --text-normal: #565861;
+  --text-correct: #fff;
+  --text-wrong: #811510;
+  --text-hover: #fff;
+}
+
+/* coal theme */
+.theme-coal {
+  --bg-primary: #121520;
+  --bg-control: #1b1e2c;
+  --color-active: #fff;
+  --text-normal: #676e8a;
+  --text-correct: #fff;
+  --text-wrong: #f94348;
+  --text-hover: #fff;
+}
+
+/* gold theme */
+.theme-gold {
+  --bg-primary: #292521;
+  --bg-control: #1d1b18;
+  --color-active: #23a9f2;
+  --text-normal: #f5ae2d;
+  --text-correct: #e4c6a7;
+  --text-wrong: #ad4d3b;
+  --text-hover: #e4c6a7;
+}
+
+/* darkin theme */
+.theme-darkin {
+  --bg-primary: #0f0000;
+  --bg-control: #200a0a;
+  --color-active: #b31313;
+  --text-normal: #683434;
+  --text-correct: #da6b02;
+  --text-wrong: #23a9f2;
+  --text-hover: #fff;
+}
+
+/* purple theme */
+.theme-purple {
+  --bg-primary: #190618;
+  --bg-control: #2c0c28;
+  --color-active: #e0caac;
+  --text-normal: #4c1e48;
+  --text-correct: #fff;
+  --text-wrong: #b12e33;
+  --text-hover: #fff;
+}
+/* beach theme */
+.theme-beach {
+  --bg-primary: #18181a;
+  --bg-control: #0f0f10;
+  --color-active: #e4609b;
+  --text-normal: #47bac0;
+  --text-correct: #fff;
+  --text-wrong: #f4ea8b;
+  --text-hover: #fff;
+}
+/* kelp theme */
+.theme-kelp {
+  --bg-primary: #0b1e1a;
+  --bg-control: #041715;
+  --color-active: #66ac92;
+  --text-normal: #015c53;
+  --text-correct: #fff;
+  --text-wrong: #bc5f68;
+  --text-hover: #fff;
+}
+/* evon theme */
+.theme-evon {
+  --bg-primary: #1e1e32;
+  --bg-control: #181829;
+  --color-active: #7a52cc;
+  --text-normal: #5c5c99;
+  --text-correct: #fff;
+  --text-wrong: #bc5f68;
+  --text-hover: #fff;
+}
+/* land theme */
+.theme-land {
+  --bg-primary: #2c2e34;
+  --bg-control: #232429;
+  --color-active: #9ed072;
+  --text-normal: #e7c664;
+  --text-correct: #fff;
+  --text-wrong: #bc5f68;
+  --text-hover: #fff;
+}
+/* purpler theme */
+.theme-purpler {
+  --bg-primary: #2e1a47;
+  --bg-control: #27173c;
+  --color-active: #f7f2ea;
+  --text-normal: #c18fff;
+  --text-correct: #f7f2ea;
+  --text-wrong: #bc5f68;
+  --text-hover: #fff;
+}
+/* army theme */
+.theme-army {
+  --bg-primary: #1f4437;
+  --bg-control: #244d3f;
+  --color-active: #d6686f;
+  --text-normal: #3e7a65;
+  --text-correct: #cdc6bc;
+  --text-wrong: #b31313;
+  --text-hover: #fff;
+}
+/* diff theme */
+.theme-diff {
+  --bg-primary: #303c36;
+  --bg-control: #36453c;
+  --color-active: #a59682;
+  --text-normal: #181d1a;
+  --text-correct: #a59682;
+  --text-wrong: #601420;
+  --text-hover: #a59682;
+}
+/* hp theme */
+.theme-hp {
+  --bg-primary: #6e2626;
+  --bg-control: #3f1616;
+  --color-active: #e55050;
+  --text-normal: #ff6060;
+  --text-correct: #ffaaaa;
+  --text-wrong: #8881ac;
+  --text-hover: #a59682;
+}
