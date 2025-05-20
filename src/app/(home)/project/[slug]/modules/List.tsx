@@ -12,6 +12,7 @@ type ListProps = {
   list: ListType;
   tasks: Task[];
   updateList: (id: Id, title: string) => void;
+  updateTaskChecked: (id: Id, checked: boolean) => void;
   handleDeleteTask: (id: Id) => void;
   updateTask: (id: Id, title: string) => void;
   createNewTask: (id: Id, content: string) => void;
@@ -21,6 +22,7 @@ const List = ({
   list,
   updateList,
   updateTask,
+  updateTaskChecked,
   createNewTask,
   handleDeleteTask,
   tasks,
@@ -82,6 +84,7 @@ const List = ({
                 task={task}
                 key={task.id}
                 updateTask={updateTask}
+                updateTaskChecked={updateTaskChecked}
                 handleDeleteTask={handleDeleteTask}
               />
             ))}

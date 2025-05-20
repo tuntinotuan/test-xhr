@@ -184,6 +184,13 @@ const LocalContent = () => {
     });
     setLists(newLists);
   }
+  function updateTaskChecked(id: Id, checked: boolean) {
+    const newTasks = tasks.map((item) => {
+      if (item.id !== id) return item;
+      return { ...item, checked };
+    });
+    setTasks(newTasks);
+  }
   function updateTask(id: Id, content: string) {
     console.log("new taskssssss", id, content);
     const newTasks = tasks.map((item) => {
@@ -197,6 +204,7 @@ const LocalContent = () => {
       id: generateId(),
       listId: listId,
       content: content,
+      checked: false,
     };
     setTasks([...tasks, newTask]);
   }
@@ -289,6 +297,7 @@ const LocalContent = () => {
                 key={list.id}
                 updateList={updateList}
                 updateTask={updateTask}
+                updateTaskChecked={updateTaskChecked}
                 createNewTask={createNewTask}
                 handleDeleteTask={handleDeleteTask}
                 tasks={tasks.filter((task) => task.listId === list.id)}
@@ -302,6 +311,7 @@ const LocalContent = () => {
                 list={activeList}
                 updateList={updateList}
                 updateTask={updateTask}
+                updateTaskChecked={updateTaskChecked}
                 createNewTask={createNewTask}
                 handleDeleteTask={handleDeleteTask}
                 tasks={tasks.filter((task) => task.listId === activeList.id)}

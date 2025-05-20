@@ -10,4 +10,5 @@ export type Task = {
   id: Id;
   listId: Id;
   content: string;
+  checked: boolean;
 };
