@@ -8,6 +8,10 @@ npm install
 npm run dev
 ```
 
+## 🚀 Demo
+
+[Live Demo](https://flexibletodoapp.netlify.app/)
+
 ## Screenshort of running results
 
 ![App Screenshot](./screenshot-running-results.png)

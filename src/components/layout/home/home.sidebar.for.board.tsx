@@ -62,7 +62,7 @@ const HomeSidebarForBoard = () => {
         onClick={() => dispatch(handleOpenAndClosePopupCreateboard(true))}
       >
         <PlusIcon />
-        Create a project
+        Create a todolist
       </ButtonCreate>
       {/* <ButtonCreate className="!w-full" styles="secondary" disable>
         <CrownIcon />

@@ -27,7 +27,7 @@ export type Board = {
 const PopupCreateboard = ({ show, onClose }: PopupCreateboardProps) => {
   return (
     <PopupOverlay show={show} selector="myportal" width={400} onClick={onClose}>
-      <TopControl onClose={onClose} />
+      <TopControl onClose={onClose} title="Create todolist" />
       <Body onClose={onClose} />
     </PopupOverlay>
   );
@@ -105,7 +105,7 @@ const Body = ({ onClose }: any) => {
         ></GradientImage>
       </div>
       <label htmlFor="" className="font-bold">
-        Board title
+        Todolist title
       </label>
       <input
         type="text"
